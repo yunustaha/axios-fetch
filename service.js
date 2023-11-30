@@ -10,6 +10,7 @@ export default async function getData (userId) {
         return { ...getResponse.data, posts: postResponse.data }
 
     } catch (error) {
+        //handling errors
         console.log(error);
     }
 }
